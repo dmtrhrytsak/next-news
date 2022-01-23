@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import styles from '../../styles/Feed.module.css';
@@ -7,6 +8,10 @@ const Feed = ({ pageNumber, articles }) => {
 
   return (
     <div className="page-container">
+      <Head>
+        <title>Feed | Next News</title>
+      </Head>
+
       <div className={styles.main}>
         {articles.map((article, index) => (
           <div key={index} className={styles.post}>

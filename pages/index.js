@@ -1,8 +1,14 @@
+import Head from 'next/head';
+
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
   return (
     <div className="page-container">
+      <Head>
+        <title>Home | Next News</title>
+      </Head>
+
       <div className={styles.main}>
         <h1>Next.js News App</h1>
 
