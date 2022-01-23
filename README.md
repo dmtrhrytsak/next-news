@@ -4,7 +4,7 @@
 <div align="center">
   <br>
   <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://next-news-dmtrhrytsak.vercel.app/" target="_blank">View Demo</a>
   </p>
 </div>
 
