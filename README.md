@@ -21,9 +21,9 @@ Project is created with:
 
 ### Prerequisites
 
-* npm
+* yarn
   ```sh
-  npm install npm@latest -g
+  npm install --global yarn
   ```
 
 ### Installation
@@ -34,10 +34,10 @@ Project is created with:
    ```sh
    git clone https://github.com/dmtrhrytsak/next-news.git
    ```
-3. Install NPM packages
+3. Install packages
 
    ```sh
-   npm install
+   yarn install
    ```
 4. Enter your API Key in `.env`
 
